@@ -1,0 +1,212 @@
+.Content {
+    background-color: #dfdfdf;
+    border: solid;
+    border-radius: 2vw;
+    transition: ease-in;
+    transition-duration: .2s;
+    z-index: 10;
+    height: 40vh;
+    padding: 1%;
+    text-align: left;
+    float: left;
+    font-size: 5vh;
+    align-self: start;
+    align-items: flex-start;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5vh;
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 0%;
+    color: rgb(209, 209, 209);
+    width: 70vw;
+    position: relative;
+    left: 7%;
+    text-decoration: underline;
+    text-decoration-color: black;
+    z-index: 10;
+}
+
+.Content:hover {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.CloseButton {
+    padding: 10%;
+    width: 2%;
+    background-color: red;
+    height: 2%;
+    float: right;
+}
+
+.green {
+    background-color: green;
+    padding: .3vw;
+    border-radius: 10vw;
+    color: white;
+    float: right;
+    margin-left: 2vw;
+}
+.red {
+    background-color: red;
+    padding: .2vw;
+    border-radius: 10vw;
+    color: white;
+    text-align: right;
+    float: right;
+    margin-left: 2vw;
+}
+
+.ClothingImage {
+    width: 10vw;
+    min-height: 10vw;
+    display: block;
+    margin-bottom: 2vh;
+    border-radius: 2vh;
+    outline:  black solid;
+}
+  
+.footer {
+    text-align: right;
+}
+
+.TheText {
+    color: black;
+    margin-bottom: 2vh;
+}
+
+.sizes {
+    text-decoration: none;
+    text-decoration-color: transparent;
+    float: right;
+    color: #1a774c;
+}
+
+.Cancel {
+    display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+    position: relative;
+    overflow: hidden;
+
+    padding: 0.8rem 3rem;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 80%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: gray;
+    margin-left: 1vw;
+    color: white;
+}
+.Cancel:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+.CheckOut {
+    display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+    position: relative;
+    overflow: hidden;
+
+    padding: 0.8rem 3rem;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 80%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: #5aa378;
+    color: white;
+}
+.CheckOut:hover {
+    background-color: #77c999;
+}
+
+.Return {
+    display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+    position: relative;
+    overflow: hidden;
+
+    padding: 0.8rem 3rem;
+
+    border: none;
+    border-radius: 6px;
+    margin-left: 1vw;
+    font-size: 80%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: #5aa378;
+    color: white;
+}
+.Return:hover {
+    background-color: #77c999;
+}
+
+.ModalC {
+    background-color: green;
+}
+
+.NameField {
+    width: 99%;
+    font-size: 3vh;
+}
+.NameField::-webkit-input-placeholder { /* WebKit, Blink, Edge,Chrome */
+    color: gray;
+}
+
+.Alert {
+    font-weight: bold;
+    animation: shake 1s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+}
+
+.header {
+    font-weight: bold;
+    margin-bottom:2vh;
+    margin-top:1vh;
+}
+
+.Title {
+    text-transform: uppercase;
+    font-size: 3vh;
+    font-weight: bold;
+    padding: var(--st-dialog-padding) var(--st-dialog-padding) calc(var(--st-dialog-padding) / 2)
+    var(--st-dialog-padding);
+    color: var(--st-modal-titleTextColor);
+    border-bottom: solid 1px var(--st-modal-secondColor);
+    margin: 0;
+}
+
+
+  
+  
+  

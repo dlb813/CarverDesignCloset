@@ -1,0 +1,197 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1a774c;
+  min-height: 52vh;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  color: white;
+  font-size: 6vh;
+  z-index: 100;
+  border-bottom: solid black thick;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.SearchBar {
+  min-width: 28vw;
+  min-height: 6vh;
+  background-color: #5aa378;
+  border-style: none;
+  padding-left: 1%;
+  border-radius: 1vw;  
+  font-family: Arial, Helvetica, sans-serif;
+  outline-style: solid;
+  outline-color: transparent;
+  color: white;
+  opacity: 1;
+  margin-bottom: 4vh;
+  font-weight: 400;
+  font-family: FontAwesome;
+  font-size: 2vw;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge,Chrome */
+  color: rgb(218, 218, 218);
+}
+
+.Icon {
+  height: 20vh;
+  align-self: center;
+  word-wrap: normal;
+  filter: invert(100%) sepia(0%) saturate(7480%) hue-rotate(98deg) brightness(107%) contrast(106%);;
+}
+.SearchBarGroup {
+  text-align: center;
+  align-self: center;
+  align-content: center;
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.Page {
+ align-content: center;
+}
+
+.Cards {
+  background-color: rgb(255, 255, 255);
+  margin-top: 2%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.addButton {
+  font-family: Arial, FontAwesome;
+  color: white;
+  outline-color: rgb(219, 219, 219);
+  outline: solid;
+  background-color: black;
+  border-style: none;
+  align-self: center;
+  font-size: 4vh;
+  margin-bottom: 2vh;
+  border-radius: 2vh;
+  background-color: rgb(28, 129, 62);
+  text-align: center;
+}
+.addButton:hover {
+  color: #000000;
+  background-color: rgb(30, 167, 114);
+}
+
+.NoneFound {
+  margin-top: -2%;
+  z-index: 10;
+  font-size: 6vh;
+  text-align: center;
+  color: rgb(163, 162, 162);
+}
+.nF2 {
+  font-size: 4vh;
+  z-index: 10;
+  text-align: center;
+  color: rgb(229, 226, 226);
+}
+
+.NoneFoundImage {
+  font-family: FontAwesome;
+  font-size: 12vh;
+  transition: 1s;
+  z-index: 10;
+  text-align: center;
+  background: transparent;
+  display: inline-block;
+}
+.NoneFoundImage:hover {
+  animation: shake 1s linear;
+  color: #3a404a;
+}
+
+
+
+.bg {
+  position: absolute;
+  left: 0px;
+  top:52vh;
+  height: 20vh;
+  height: 66vw;
+  transform: scaleY(-1);
+  z-index: -1;
+  border-top: solid thick black;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.GreenButton {
+  display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+    position: relative;
+    overflow: hidden;
+
+    padding: 0.8rem 3rem;
+
+    border: none;
+    border-radius: 6px;
+    margin-left: 1vw;
+    font-size: 80%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: #5aa378;
+    color: white;
+}
+.GreenButton:hover {
+  background-color: #77c999;
+}
+
+.Title {
+  text-transform: uppercase;
+  font-size: 3vh;
+  font-weight: bold;
+  padding: var(--st-dialog-padding) var(--st-dialog-padding) calc(var(--st-dialog-padding) / 2)
+  var(--st-dialog-padding);
+  color: var(--st-modal-titleTextColor);
+  border-bottom: solid 1px var(--st-modal-secondColor);
+  margin: 0;
+}
+.header {
+  font-weight: bold;
+  margin-bottom:2vh;
+  margin-top:1vh;
+}
