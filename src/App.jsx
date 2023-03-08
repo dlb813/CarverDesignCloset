@@ -199,7 +199,7 @@ function App() {
             xl:_xl
           },
           astock: "",
-          Image: "https://firebasestorage.googleapis.com/v0/b/dpapp-b5351.appspot.com/o/Images%2Fquestion.png?alt=media&token=b2004466-1ada-4066-990f-981cf2beb107",
+          Image: "QUESTIONMARKIMAGE",
           Timestamp: FieldValue.serverTimestamp(),
         });
       }
